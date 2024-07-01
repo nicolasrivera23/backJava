@@ -15,7 +15,7 @@ public class Conexion {
    "jdbc:mysql://localhost:3306/peliculas_web?useSSL=false&useTimeZone=true&serverTimeZone=UTC&allowPublicKeyRetrieval=true";
   private final static String JDBC_USER = "root";
   //En JDBC_PASS ingresan su contraseña.
-  private final static String JDBC_PASS = "Rolando_2022";
+  private final static String JDBC_PASS = "";
 
   public static DataSource getDataSource() {
     BasicDataSource ds = new BasicDataSource();
